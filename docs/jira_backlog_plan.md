@@ -71,3 +71,5 @@ Taskovi:
 - Napisati README.
 - Dodati komande za instalaciju.
 - Dodati komande za pokretanje primera.
+
+Validacija je napravljena na osnovu 3 mock primera:AUTH-101,CART-205,REPORT-303
