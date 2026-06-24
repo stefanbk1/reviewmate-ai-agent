@@ -1,0 +1,14 @@
+{
+  "key": "SHOP-215",
+  "title": "Dodavanje proizvoda u korpu",
+  "description": "Kao kupac, želim da dodam proizvod u korpu kako bih mogao kasnije da završim kupovinu.",
+  "priority": "Medium",
+  "status": "In Review",
+  "acceptance_criteria": [
+    "Korisnik može da doda dostupan proizvod u korpu.",
+    "Korisnik može da izabere količinu proizvoda.",
+    "Sistem ne dozvoljava dodavanje proizvoda koji nije na stanju.",
+    "Ukupna cena u korpi se automatski ažurira.",
+    "Korisniku se prikazuje poruka nakon uspešnog dodavanja proizvoda."
+  ]
+}

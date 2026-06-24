@@ -1,0 +1,14 @@
+{
+  "key": "AUTH-101",
+  "title": "Resetovanje zaboravljene lozinke",
+  "description": "Kao registrovani korisnik, želim da mogu da resetujem lozinku preko email adrese kako bih ponovo pristupio svom nalogu.",
+  "priority": "High",
+  "status": "In Progress",
+  "acceptance_criteria": [
+    "Korisnik može da unese email adresu na formi za resetovanje lozinke.",
+    "Ako email postoji u sistemu, sistem šalje link za resetovanje lozinke.",
+    "Link za resetovanje lozinke važi 30 minuta.",
+    "Nova lozinka mora da ima najmanje 8 karaktera.",
+    "Nakon uspešne promene lozinke korisnik može da se prijavi novom lozinkom."
+  ]
+}

@@ -1,0 +1,29 @@
+diff --git a/src/auth/password_reset.py b/src/auth/password_reset.py
+new file mode 100644
++from datetime import datetime, timedelta
++from src.email_service import send_email
++
++TOKEN_EXPIRATION_MINUTES = 30
++
++def request_password_reset(email, user_repository, token_repository):
++    user = user_repository.find_by_email(email)
++    if not user:
++        return {"message": "Ako nalog postoji, poslat je email za resetovanje lozinke."}
++
++    token = token_repository.create_token(
++        user_id=user.id,
++        expires_at=datetime.utcnow() + timedelta(minutes=TOKEN_EXPIRATION_MINUTES)
++    )
++    send_email(email, "Resetovanje lozinke", f"Kliknite na link: /reset/{token.value}")
++    return {"message": "Ako nalog postoji, poslat je email za resetovanje lozinke."}
++
++def change_password(token_value, new_password, token_repository, user_repository):
++    token = token_repository.find_valid_token(token_value)
++    if not token:
++        return {"error": "Link nije validan ili je istekao."}
++    if len(new_password) < 8:
++        return {"error": "Lozinka mora imati najmanje 8 karaktera."}
++    user = user_repository.find_by_id(token.user_id)
++    user_repository.update_password(user.id, new_password)
++    token_repository.mark_as_used(token.id)
++    return {"message": "Lozinka je uspešno promenjena."}

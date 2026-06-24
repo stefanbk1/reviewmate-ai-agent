@@ -1,0 +1,8 @@
+diff --git a/src/cart/cart_service.py b/src/cart/cart_service.py
++def add_to_cart(user_id, product_id, cart_repository, product_repository):
++    product = product_repository.find_by_id(product_id)
++    if not product:
++        return {"error": "Proizvod ne postoji."}
++
++    cart_repository.add_item(user_id=user_id, product_id=product_id, quantity=1)
++    return {"message": "Proizvod je dodat u korpu."}

@@ -1,0 +1,14 @@
+{
+  "key": "REPORT-330",
+  "title": "Izveštaj o prodaji za menadžera",
+  "description": "Kao menadžer, želim da vidim izveštaj o prodaji kako bih pratio rezultate poslovanja.",
+  "priority": "High",
+  "status": "To Do",
+  "acceptance_criteria": [
+    "Menadžer može da izabere vremenski period izveštaja.",
+    "Izveštaj prikazuje ukupan prihod, broj porudžbina i prosečnu vrednost porudžbine.",
+    "Izveštaj može da se filtrira po kategoriji proizvoda.",
+    "Samo korisnici sa rolom menadžera mogu da pristupe izveštaju.",
+    "Izveštaj može da se izveze u CSV formatu."
+  ]
+}
