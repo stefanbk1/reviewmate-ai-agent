@@ -171,3 +171,4 @@ PR pokriva samo osnovne podatke izveštaja. Nedostaju vremenski period, filter, 
 
 
 Aktivnosti na projektu se prate u JIRA-i korišćenjem KAN oznaka radnih stavki, dok se GitHub commit-ovi pozivaju na iste oznake radi lakšeg praćenja povezanosti između zadataka i izmena u kodu.
+-Povezivanje JIRA zadataka i GitHub aktivnosti prikazano je kroz KAN oznake u commit porukama.
