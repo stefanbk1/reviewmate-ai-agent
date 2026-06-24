@@ -168,3 +168,6 @@ PR pokriva samo osnovne podatke izveštaja. Nedostaju vremenski period, filter, 
 - bolja analiza koda;
 - dodavanje web interfejsa;
 - čuvanje istorije analiza.
+
+
+Aktivnosti na projektu se prate u JIRA-i korišćenjem KAN oznaka radnih stavki, dok se GitHub commit-ovi pozivaju na iste oznake radi lakšeg praćenja povezanosti između zadataka i izmena u kodu.
