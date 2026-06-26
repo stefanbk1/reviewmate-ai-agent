@@ -8,7 +8,7 @@
 
 ## Kratak zaključak
 
-GitHub Pull Request za JIRA zadatak SHOP-215 delimično ispunjava postavljene acceptance kriterijume. Korisnik može da doda proizvod u korpu, ali nije implementirana mogućnost izbora količine proizvoda, niti je obezbeđeno da se ne može dodati proizvod koji nije na stanju. Takođe, ukupna cena u korpi se delimično ažurira, što ukazuje na to da deo funkcionalnosti nije potpuno razvijen. Poruka o uspešnom dodavanju proizvoda se pravilno prikazuje korisniku. U celini, Pull Request zahteva dodatne izmene kako bi se ispunili svi kriterijumi iz JIRA zadatka.
+GitHub Pull Request za JIRA zadatak SHOP-215 delimično ispunjava postavljene acceptance kriterijume. Korisnik može da doda proizvod u korpu, ali nije implementirana mogućnost izbora količine proizvoda, niti je obezbeđeno da se ne može dodati proizvod koji nije na stanju. Takođe, ukupna cena u korpi se delimično ažurira, što ukazuje na to da deo funkcionalnosti nije potpuno završen. Poruka o uspešnom dodavanju proizvoda se pravilno prikazuje, što je jedan od kriterijuma koji je ispunjen. U celini, potrebno je dodatno raditi na implementaciji preostalih funkcionalnosti kako bi se zadatak smatrao završenim.
 
 ## Analiza acceptance criteria
 

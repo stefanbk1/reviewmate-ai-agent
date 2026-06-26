@@ -8,7 +8,7 @@
 
 ## Kratak zaključak
 
-GitHub Pull Request ispunjava većinu acceptance criteria iz JIRA zadatka AUTH-101. Korisnik može da unese email adresu za resetovanje lozinke, a sistem šalje link za resetovanje ako email postoji. Link važi 30 minuta, a nova lozinka mora imati najmanje 8 karaktera, što je takođe ispunjeno. Međutim, kriterijum koji se odnosi na mogućnost prijave korisnika sa novom lozinkom je delimično ispunjen, što sugeriše da može postojati problem u implementaciji ili testiranju tog dela funkcionalnosti. Potrebno je dodatno istražiti i osigurati da korisnici mogu uspešno da se prijave nakon promene lozinke.
+GitHub Pull Request ispunjava većinu kriterijuma iz JIRA zadatka AUTH-101 za resetovanje zaboravljene lozinke. Korisnik može da unese email adresu, a sistem šalje link za resetovanje lozinke ako email postoji. Link važi 30 minuta, a nova lozinka mora imati najmanje 8 karaktera, što je takođe ispunjeno. Međutim, kriterijum koji se odnosi na mogućnost prijave korisnika sa novom lozinkom je delimično ispunjen, jer nije jasno iz PR-a da li je implementirana funkcionalnost za prijavu nakon promene lozinke. Potrebno je dodatno testiranje ili implementacija kako bi se osiguralo da korisnik može uspešno da se prijavi sa novom lozinkom.
 
 ## Analiza acceptance criteria
 
